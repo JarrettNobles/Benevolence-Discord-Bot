@@ -19,6 +19,7 @@ public class darkwaterBot {
         builder.setActivity(Activity.watching("for media in general"));
         builder.build();
         shardManager = builder.build();
+        //test commit
 
     }
 
