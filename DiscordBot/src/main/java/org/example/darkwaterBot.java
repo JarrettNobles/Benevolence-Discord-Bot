@@ -13,7 +13,7 @@ public class darkwaterBot {
 
     //constructor
     public darkwaterBot()throws LoginException {
-        String token = "MTAzMjEwMzQ5MzA0Mjk3ODgzNg.GeflIa.lqmQksT9bkLw8OOXUoKosgyTm4BhSXDbCQK9aA";
+        String token = "TEST_TOKEN";
         DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(token);
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.watching("for media in general"));
